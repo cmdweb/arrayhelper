@@ -11,6 +11,6 @@
   "license": "MIT",
   "type": "library",
    "autoload": {
-        "psr-4": { "Alcatraz\\Components\\ArrayHelper\\": "src" }
+        "psr-4": { "Alcatraz\\ArrayHelper\\": "src" }
     }
 }

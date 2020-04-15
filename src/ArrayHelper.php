@@ -4,7 +4,7 @@
  * @site: github.com/gmalaquias
  */
 
-namespace Alcatraz\Componentes\ArrayHelper;
+namespace Alcatraz\ArrayHelper;
 
 
 class ArrayHelper {
@@ -16,12 +16,10 @@ class ArrayHelper {
     public function __construct(array $array = array()){
         foreach($array as $element)
             $this->Add($element);
-
     }
 
     public function Add($element){
         if($this->setType($element)) {
-
             $this->array[] = $element;
 
             return $this;
